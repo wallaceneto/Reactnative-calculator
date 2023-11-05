@@ -1,0 +1,24 @@
+{
+	"Function component": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "compfunc",
+		"body": [
+			"import React from 'react';",
+			"import {View} from 'react-native';",
+			"",
+			"import styles from './styles';",
+			"",
+			"interface Props {",
+			"  text: String;",
+			"}",
+			"",
+			"export default function $1(props: Props) {",
+			"  return (",
+			"    <View style={styles.container}>{props.text}</View>",
+			"  );",
+			"}",
+			"",
+		],
+		"description": "Create the base for a function component"
+	}
+}

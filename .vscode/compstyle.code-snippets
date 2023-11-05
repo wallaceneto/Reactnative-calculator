@@ -1,0 +1,19 @@
+{
+	"Function component": {
+		"scope": "javascript,typescript",
+		"prefix": "compstyle",
+		"body": [
+			"import {StyleSheet} from 'react-native';",
+			"",
+			"const styles = StyleSheet.create({"
+			"  container: {",
+			"    $1",
+			"  },",
+			"});",
+			"",
+			"export default styles;",
+			"",
+		],
+		"description": "Create the base for a component style"
+	}
+}
