@@ -9,7 +9,7 @@
 			"import styles from './styles';",
 			"",
 			"interface Props {",
-			"  text: String;",
+			"  text: string;",
 			"}",
 			"",
 			"export default function $1(props: Props) {",

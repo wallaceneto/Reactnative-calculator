@@ -4,7 +4,7 @@ import {Text, View} from 'react-native';
 import styles from './styles';
 
 interface Props {
-  text: String;
+  text: string;
 }
 
 export default function Display(props: Props) {
